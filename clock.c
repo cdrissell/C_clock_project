@@ -82,7 +82,7 @@ int main(int argc, char* argv[]){
 	col_num = get_col();
 
 	if (argc > 1){
-		if (strcmp(argv[1], "help") == 0 || strcmp(argv[1], "Help") == 0){
+		if (strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "help") == 0 || strcmp(argv[1], "Help") == 0){
 			for (int i = 1; i <= line_num/2-4; i++) printf("\n");
 			while(1){
 				for(int i = 0; i < (col_num-20)/2; i++) printf(" ");
